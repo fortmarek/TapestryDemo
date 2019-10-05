@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C714F3ED68857CA5CDC484DD /* .. in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C752798D752B9B759A0C82B /* .. */; };
+		32FB62581B9C66CB077B855A /* TapestryDemo in Frameworks */ = {isa = PBXBuildFile; productRef = 946320C6E88927B8947B4579 /* TapestryDemo */; };
 		CF2FF85F9112DE036BCE8306 /* TapestryDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D5BA97EE0982244CD880A /* TapestryDemo.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C714F3ED68857CA5CDC484DD /* .. in Frameworks */,
+				32FB62581B9C66CB077B855A /* TapestryDemo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,6 +100,9 @@
 			dependencies = (
 			);
 			name = TapestryDemoExample;
+			packageProductDependencies = (
+				946320C6E88927B8947B4579 /* TapestryDemo */,
+			);
 			productName = TapestryDemoExample;
 			productReference = 08A7F826CE225E3E1A6DD3E1 /* TapestryDemoExample.app */;
 			productType = "com.apple.product-type.application";
@@ -145,15 +148,13 @@
 			files = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/..",
 			);
 			name = "Embed Precompiled Frameworks";
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/TapestryDemo",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "/Users/marekfort/Library/Developer/Xcode/DerivedData/Tapestry-ezrjtpjereeshzfdvatiziwxfsod/Build/Products/Debug/Tapestry embed ..";
+			shellScript = "echo \"Skipping, nothing to be embedded.\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -223,12 +224,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../..";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ackee.TapestryDemoExample;
+				PRODUCT_BUNDLE_IDENTIFIER = marek.fort.TapestryDemo;
 				PRODUCT_NAME = TapestryDemoExample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -301,12 +301,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited) $(SRCROOT)/../..";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ackee.TapestryDemoExample;
+				PRODUCT_BUNDLE_IDENTIFIER = marek.fort.TapestryDemo;
 				PRODUCT_NAME = TapestryDemoExample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -338,6 +337,13 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		946320C6E88927B8947B4579 /* TapestryDemo */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TapestryDemo;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E7734421D09BCEFB9CBCBFAC /* Project object */;
 }

@@ -1,5 +1,5 @@
 # TapestryDemo
-[![CI Status](http://img.shields.io/travis/Marek Fořt/TapestryDemo.svg?style=flat)](https://travis-ci.org/fortmarek/ParallaxOverlay)
+[![CI Status](http://img.shields.io/travis/marek.fort/TapestryDemo.svg?style=flat)](https://travis-ci.org/marek.fort/TapestryDemo
 [![Version](https://img.shields.io/cocoapods/v/TapestryDemo.svg?style=flat)](http://cocoapods.org/pods/ParallaxOverlay)
 <a href="https://swift.org/package-manager">
         <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" alt="Swift Package Manager" />
@@ -13,8 +13,6 @@ Say something about your library
 ### SPM
 
 `TapestryDemo` is available via [Swift Package Manager](https://swift.org/package-manager).
-
-Using Xcode 11 and later, go to `File -> Swift Packages -> Add Package Dependency` and enter [https://github.com/Marek Fořt/TapestryDemo](https://github.com/Marek Fořt/TapestryDemo
 
 ### CocoaPods
 
