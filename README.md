@@ -13,6 +13,10 @@ Say something about your library
 ### SPM
 
 `TapestryDemo` is available via [Swift Package Manager](https://swift.org/package-manager).
+Just add this to your `Package.swift`:
+```swift
+.package(url: "https://github.com/marek.fort/TapestryDemo.git", .upToNextMajor(from: "0.0.1")),
+```
 
 ### CocoaPods
 
@@ -20,5 +24,5 @@ TapestryDemo is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'TapestryDemo'
+pod "TapestryDemo", "~> 0.0.1"
 ```
