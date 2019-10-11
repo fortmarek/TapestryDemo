@@ -228,7 +228,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fortmarek.TapestryDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = marek.fort.TapestryDemo;
 				PRODUCT_NAME = TapestryDemoExample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -305,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fortmarek.TapestryDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = marek.fort.TapestryDemo;
 				PRODUCT_NAME = TapestryDemoExample;
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
