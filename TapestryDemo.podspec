@@ -1,12 +1,12 @@
 
 Pod::Spec.new do |s|
   s.name = "TapestryDemo"
-  s.version = "1.1.2"
+  s.version = "0.0.1"
   s.license = "MIT"
   s.summary = "TapestryDemo is a developer library"
-  s.homepage = "https://github.com/marek.fort/TapestryDemo"
-  s.authors = { "Alamofire Software Foundation" => "marek.fort@ackee.cz" }
-  s.source = { :git => "https://github.com/marek.fort/TapestryDemo.git", :tag => s.version }
+  s.homepage = "https://github.com/fortmarek/TapestryDemo"
+  s.authors = { "Alamofire Software Foundation" => "marekfort@me.com" }
+  s.source = { :git => "https://github.com/fortmarek/TapestryDemo.git", :tag => s.version }
 
   s.ios.deployment_target = "10.0"
   s.osx.deployment_target = "10.12"
