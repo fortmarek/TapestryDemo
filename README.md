@@ -15,7 +15,7 @@ Say something about your library
 `TapestryDemo` is available via [Swift Package Manager](https://swift.org/package-manager).
 Just add this to your `Package.swift`:
 ```swift
-		.package(url: "https://github.com/fortmarek/TapestryDemo.git", .upToNextMajor(from: "1.0.1")),
+		.package(url: "https://github.com/fortmarek/TapestryDemo.git", .upToNextMajor(from: "0.0.1")),
 ```
 
 ### CocoaPods
