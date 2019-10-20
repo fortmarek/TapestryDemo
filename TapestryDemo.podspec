@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = "TapestryDemo"
-  s.version = "0.0.14"
+  s.version = "0.0.15"
   s.license = "MIT"
   s.summary = "TapestryDemo is a developer library"
   s.homepage = "https://github.com/fortmarek/TapestryDemo"
@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
 
   s.swift_versions = ["5.0", "5.1"]
 
-  s.source_files = "Sources/*.swift"
+  s.source_files = "Sources/**/*.swift"
 end
