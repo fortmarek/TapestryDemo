@@ -1,5 +1,5 @@
-import XCTest
 @testable import TapestryDemo
+import XCTest
 
 final class TapestryDemoTests: XCTestCase {
     func testExample() {
