@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		32FB62581B9C66CB077B855A /* TapestryDemo in Frameworks */ = {isa = PBXBuildFile; productRef = 946320C6E88927B8947B4579 /* TapestryDemo */; };
-		CF2FF85F9112DE036BCE8306 /* TapestryDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83D5BA97EE0982244CD880A /* TapestryDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +24,7 @@
 
 /* Begin PBXFileReference section */
 		08A7F826CE225E3E1A6DD3E1 /* TapestryDemoExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapestryDemoExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C752798D752B9B759A0C82B /* .. */ = {isa = PBXFileReference; path = ..; sourceTree = "<group>"; };
-		A83D5BA97EE0982244CD880A /* TapestryDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapestryDemo.swift; sourceTree = "<group>"; };
+		1D8CC5FC8F44A8FC087805E1 /* TapestryDemo */ = {isa = PBXFileReference; name = TapestryDemo; path = ../TapestryDemo; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,8 +42,7 @@
 		26A24D035E911B328D3F69B0 /* TapestryDemoExample */ = {
 			isa = PBXGroup;
 			children = (
-				A109FC577A7D6896EDEC2A72 /* Sources */,
-				9C752798D752B9B759A0C82B /* .. */,
+				1D8CC5FC8F44A8FC087805E1 /* TapestryDemo */,
 			);
 			name = TapestryDemoExample;
 			sourceTree = "<group>";
@@ -65,14 +62,6 @@
 				08A7F826CE225E3E1A6DD3E1 /* TapestryDemoExample.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A109FC577A7D6896EDEC2A72 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-				A83D5BA97EE0982244CD880A /* TapestryDemo.swift */,
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 		B1B4B9733333EE1032A8C5D0 /* Frameworks */ = {
@@ -163,7 +152,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2FF85F9112DE036BCE8306 /* TapestryDemo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,20 +211,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fortmarek.TapestryDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = bundleId;
 				PRODUCT_NAME = TapestryDemoExample;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -300,20 +288,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/Frameworks",
+					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = fortmarek.TapestryDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = bundleId;
 				PRODUCT_NAME = TapestryDemoExample;
-				SDKROOT = iphoneos;
-				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
