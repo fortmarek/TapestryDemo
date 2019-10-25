@@ -5,3 +5,5 @@
 .DS_Store
 DerivedData
 .swiftpm/
+# Tapestry
+tapestries/.build
