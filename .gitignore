@@ -7,3 +7,6 @@ DerivedData
 .swiftpm/
 # Tapestry
 tapestries/.build
+
+# Tapestry
+tapestries/.build
