@@ -15,7 +15,7 @@ Say something about your library
 `TapestryDemo` is available via [Swift Package Manager](https://swift.org/package-manager).
 Just add this to your `Package.swift`:
 ```swift
-		.package(url: "https://github.com/fortmarek/TapestryDemo.git", .upToNextMajor(from: "0.0.37")),
+		.package(url: "https://github.com/fortmarek/TapestryDemo.git", .upToNextMajor(from: "0.0.38")),
 ```
 
 ### CocoaPods
@@ -24,5 +24,5 @@ TapestryDemo is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "TapestryDemo", "~> 0.0.37"
+pod "TapestryDemo", "~> 0.0.38"
 ```
