@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name = "TapestryDemo"
-  s.version = "0.0.53"
+  s.version = "0.0.54"
   s.license = "MIT"
   s.summary = "TapestryDemo is a developer library"
   s.homepage = "https://github.com/fortmarek/TapestryDemo"
