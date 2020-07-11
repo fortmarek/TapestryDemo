@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Create a new release
-        uses: fortmarek/tapestry-action@master
+        uses: fortmarek/tapestry-action@feature/github_release
         env:
           GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
