@@ -9,6 +9,7 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Create a new release
         uses: fortmarek/tapestry-action@master
         env:
