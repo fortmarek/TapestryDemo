@@ -5,7 +5,7 @@ let config = TapestryConfig(
         actions: [
             .pre(.docsUpdate),
             // .pre(.dependenciesCompatibility([.spm(.all)])),
-            // .post(tool: "zip", arguments: ["-r", "build.zip", ".build"]),
+            .post(tool: "zip", arguments: ["-r", "license.zip", "LICENSE"]),
             // .post(.githubRelease(owner: "fortmarek", repository: "TapestryDemo", assetPaths: ["build.zip"])),
         ],
         add: [
