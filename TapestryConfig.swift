@@ -5,8 +5,8 @@ let config = TapestryConfig(
         actions: [
             .pre(.docsUpdate),
             // .pre(.dependenciesCompatibility([.spm(.all)])),
-            .post(tool: "zip", arguments: ["-r", "build.zip", ".build"]),
-            .post(.githubRelease(owner: "fortmarek", repository: "TapestryDemo", assetPaths: ["build.zip"])),
+            // .post(tool: "zip", arguments: ["-r", "build.zip", ".build"]),
+            // .post(.githubRelease(owner: "fortmarek", repository: "TapestryDemo", assetPaths: ["build.zip"])),
         ],
         add: [
             "README.md",
@@ -14,6 +14,6 @@ let config = TapestryConfig(
             "CHANGELOG.md"
         ],
         commitMessage: "Version \(Argument.version)",
-        push: true
+        push: false
     )
 )
