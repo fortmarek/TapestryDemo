@@ -14,6 +14,6 @@ let config = TapestryConfig(
             "CHANGELOG.md"
         ],
         commitMessage: "Version \(Argument.version)",
-        push: false
+        push: true
     )
 )
