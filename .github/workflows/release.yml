@@ -11,6 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          ref: master
           fetch-depth: 0
       - name: Create a new release
         uses: fortmarek/tapestry-action@master
