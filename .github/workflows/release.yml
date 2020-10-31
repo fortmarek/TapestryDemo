@@ -13,6 +13,10 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
+      - name: Write a secret
+        run: |
+          mkdir -p /opt/ejson/keys/
+          echo "hello" > 
       - name: Create a new release
         uses: fortmarek/tapestry-action@master
         env:
