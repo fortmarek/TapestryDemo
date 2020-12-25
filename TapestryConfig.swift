@@ -3,7 +3,6 @@ import TapestryDescription
 let config = TapestryConfig(
     release: Release(
         actions: [
-            .pre(tool: "echo", arguments: ["$HOME"])
             .pre(.docsUpdate),
             .pre(.dependenciesCompatibility([.spm(.all)])),
             .post(tool: "zip", arguments: ["-r", "license.zip", "LICENSE"]),
