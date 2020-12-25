@@ -13,12 +13,8 @@ jobs:
         with:
           ref: master
           fetch-depth: 0
-      - name: Write a secret
-        run: |
-          sudo mkdir -p /opt/ejson/keys/
-          sudo touch /opt/ejson/keys/file
-          sudo echo "$GITHUB_ACTOR" > file
       - name: Create a new release
         uses: fortmarek/tapestry-action@master
         env:
+          RELEASE_ACTOR: fortmarek
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
